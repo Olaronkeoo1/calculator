@@ -2,46 +2,40 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Calculator with Decimal & Keyboard</title>
+  <title>Simple Calculator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="calculator">
     <div id="display">0</div>
-    <table>
-      <tr>
-        <td class="btn">1</td>
-        <td class="btn">2</td>
-        <td class="btn">3</td>
-        <td class="equals">=</td>
-        <td colspan="5" class="clear">C</td>
-      </tr>
-      <tr>
-        <td class="btn">4</td>
-        <td class="btn">5</td>
-        <td class="btn">6</td>
-        <td class="operator" data-op="%">%</td>
-        <td class="operator" data-op="^">^</td>
-      </tr>
-      <tr>
-        <td class="btn">7</td>
-        <td class="btn">8</td>
-        <td class="btn">9</td>
-        <td class="operator" data-op="+">+</td>
-         <td class="operator" data-op="-">-</td>
-       
-      </tr>
-      <tr>
-    
-        <td class="btn">0</td>
-        <td class="btn">.</td>
-        <td class="btn">00</td>
-        <td class="operator" data-op="*">×</td>
-        <td class="operator" data-op="/">÷</td>
-      </tr>
-    </table>
+    <div class="buttons">
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="clear">C</button>
+      <button id= "delete" >DEL</button>
+
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button id="multiply">*</button>
+      <button id="add">+</button>
+
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button id="subtract">-</button>
+      <button id="divide">÷</button>
+
+      <button class="btn">0</button>
+      <button id="sqrt">√</button>
+      <button id="exponent">^</button>
+      <button class="decimal">.</button>
+      <button id="do">=</button>
+    </div>
   </div>
 
   <script src="logic.js"></script>
 </body>
 </html>
+
