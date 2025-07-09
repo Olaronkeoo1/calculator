@@ -30,37 +30,37 @@ buttons.forEach(button => {
 addButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "+";
-  display.textContent = "0";
+  display.textContent = "";
 });
 
 subtractButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "-";
-  display.textContent = "0";
+  display.textContent = "";
 });
 
 multiplyButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "*";
-  display.textContent = "0";
+  display.textContent = "";
 });
 
 divideButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "/";
-  display.textContent = "0";
+  display.textContent = "";
 });
 
 sqrtButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "√";
-  display.textContent = "0";
+  display.textContent = "";
 }); 
 
 exponentButton.addEventListener("click", () => {
   firstNumber = parseFloat(display.textContent);
   operator = "^";
-  display.textContent = "0";
+  display.textContent = "";
 });
 // Handle decimal point
 const decimalButton = document.querySelector(".decimal");
